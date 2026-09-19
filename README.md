@@ -72,7 +72,7 @@ vercel --prod
 - **Restaurant name / tagline** — search & replace `Itán` and the hero copy in `index.html`.
 - **Phone number** — appears in 5 places (`tel:` links ×4, `wa.me/234…` ×1 in `main.js`). Search for `2349012345678`.
 - **Menu items** — each dish is an `<article class="dish-card" data-cat="…">` block in `index.html`. Copy one and edit the `data-id`, `data-name`, `data-price` on its *Add* button.
-- **Images** — drop a ~1600px JPG into `assets/img/`, keep aspect ratios roughly as the existing files (4:3 dishes, 2:3–3:4 portraits for the gallery). All are progressive JPEGs at q80; keep that for mobile performance.
+- **Images** — drop a ~1600px JPG into `img/`, keep aspect ratios roughly as the existing files (4:3 dishes, 2:3–3:4 portraits for the gallery). All are progressive JPEGs at q80; keep that for mobile performance.
 - **Colors** — edit the token block at the top of `style.css` (`--gold`, `--bg0`, …).
 
 ## Connecting a real backend
